@@ -2,6 +2,13 @@
     <div class="content-container">
         <div class="title">
             Lista dos Produtos
+            <ul>
+                @for (product of products; track product.id) {
+                    <li>
+                        {{ product.title }}
+                    </li>
+                }
+            </ul>
         </div>
     </div>
 </div>

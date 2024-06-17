@@ -3,6 +3,10 @@
         {
             "id": "1",
             "title": "Saco de Arroz"
+        },
+        {
+            "id": "2",
+            "title": "Caixa de Massa"
         }
     ]
 }
