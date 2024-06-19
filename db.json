@@ -7,6 +7,10 @@
         {
             "id": "2",
             "title": "Caixa de Massa"
+        },
+        {
+            "id": "3",
+            "title": "Caixa de Óleo"
         }
     ]
 }
