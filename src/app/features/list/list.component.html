@@ -1,14 +1,13 @@
-<div class="container">
-    <div class="content-container">
-        <div class="title">
-            Lista dos Produtos
-            <ul>
-                @for (product of products; track product.id) {
-                    <li>
-                        {{ product.title }}
-                    </li>
-                }
-            </ul>
-        </div>
+@for (product of products; track product.id) {
+    <div class="list">
+        <mat-card class="example-card" appearance="outlined">
+            <mat-card-header>
+              <mat-card-title>{{product.title}}</mat-card-title>
+            </mat-card-header>
+            <mat-card-actions>
+              <button mat-button>Editar</button>
+              <button mat-button>Deletar</button>
+            </mat-card-actions>
+          </mat-card>
     </div>
-</div>
+}
