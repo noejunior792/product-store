@@ -1,10 +1,11 @@
 .example-card {
+    max-width: 300px;
     background-color: rgb(123, 80, 179);
 }
 
 .list{
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-items: center;
     margin-top: 1%;
 }
