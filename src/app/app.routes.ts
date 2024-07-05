@@ -4,9 +4,16 @@ import { ProductsService } from './shared/services/products.service';
 import { inject } from '@angular/core';
 
 export const routes: Routes = [{
-    path: '',
+    path: '', 
+    resolve:{
+        products: () => {
+            const productsService = inject(ProductsService)
+            return productsService.getAll();
+        }
+    },
     component: ListComponent
-}, {
+    }, 
+{
     path: 'create-product',
     loadComponent: () =>
         import('./features/create/create.component').then(
