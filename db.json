@@ -1,28 +1,3 @@
 {
-  "products": [
-    {
-      "id": "2",
-      "title": "Caixa de Massa"
-    },
-    {
-      "id": "3",
-      "title": "Caixa de Óleo"
-    },
-    {
-      "id": "b640",
-      "title": "Sapato"
-    },
-    {
-      "id": "147b",
-      "title": "Camiseta"
-    },
-    {
-      "id": "cab5",
-      "title": "Chinelo"
-    },
-    {
-      "title": "Meias1",
-      "id": "7a7c"
-    }
-  ]
+  "products": []
 }
